@@ -1,0 +1,331 @@
+ <!-- LISA -->
+  
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EASEON – My Task</title>
+
+    <!-- Bootstrap Icons (for search icon, arrow, dll.) -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  />
+
+  <!-- Bootstrap 5 CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles-lisa.css" />
+</head>
+<body class="bg-light">
+
+  <nav class="navbar nav px-4">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+      <img src="PIC/2.png" class="logo ">
+    </a>
+
+    <ul class="navbar-nav flex-row ms-auto align-items-center gap-4">
+      <li class="nav-item">
+        <a class="nav-link" href="my-task.html">My Task</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="weekly-schedule.html">Weekly Schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link logout" href="index.html">Log Out</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- MAIN CONTENT -->
+  <main class="container-fluid px-4 py-4">
+
+    <!-- Search bar -->
+    <div class="row mb-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="input-group search-box">
+          <span class="input-group-text border-0">
+            <i class="bi bi-search"></i>
+          </span>
+          <input type="text" class="form-control border-0"
+                 placeholder="Search task" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Top row: Task cards + Batchmates -->
+    <div class="row g-4">
+      <!-- TASK CARD 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card task-card h-100">
+          <div class="card-body">
+            <p class="small text-muted mb-1">Nov 16, 2025</p>
+            <h5 class="fw-bold mb-0">IMS565</h5>
+            <p class="mb-2">Individual Assignment</p>
+
+            <p class="small text-muted mb-1">Progress</p>
+            <div class="progress mb-2" style="height: 8px;">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+            <p class="small text-muted mb-3">89% • 9 days left</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-sm btn-outline-light rounded-circle">+</button>
+              <span class="small text-muted">View details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TASK CARD 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card task-card h-100">
+          <div class="card-body">
+            <p class="small text-muted mb-1">Dec 15, 2025</p>
+            <h5 class="fw-bold mb-0">IMS566</h5>
+            <p class="mb-2">Pairing Work</p>
+
+            <p class="small text-muted mb-1">Progress</p>
+            <div class="progress mb-2" style="height: 8px;">
+              <div class="progress-bar bg-warning" style="width: 60%;"></div>
+            </div>
+            <p class="small text-muted mb-3">60% • 38 days left</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-sm btn-outline-light rounded-circle">+</button>
+              <span class="small text-muted">View details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TASK CARD 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card task-card h-100">
+          <div class="card-body">
+            <p class="small text-muted mb-1">Jan 10, 2026</p>
+            <h5 class="fw-bold mb-0">IMS564</h5>
+            <p class="mb-2">Group Project</p>
+
+            <p class="small text-muted mb-1">Progress</p>
+            <div class="progress mb-2" style="height: 8px;">
+              <div class="progress-bar bg-info" style="width: 18%;"></div>
+            </div>
+            <p class="small text-muted mb-3">18% • 64 days left</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-sm btn-outline-light rounded-circle">+</button>
+              <span class="small text-muted">View details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BATCHMATES CARD -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 batchmates-card">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold mb-3">Batchmates</h6>
+
+            <div class="list-group list-group-flush flex-grow-1">
+              <div class="list-group-item px-0 d-flex align-items-center border-0">
+                <div class="avatar-circle me-2"></div>
+                <div>
+                  <div class="small fw-semibold">Aufa Imran</div>
+                  <div class="small text-muted">CDIM262</div>
+                </div>
+              </div>
+              <div class="list-group-item px-0 d-flex align-items-center border-0">
+                <div class="avatar-circle me-2"></div>
+                <div>
+                  <div class="small fw-semibold">Siti Arifatri</div>
+                  <div class="small text-muted">CDIM262</div>
+                </div>
+              </div>
+              <div class="list-group-item px-0 d-flex align-items-center border-0">
+                <div class="avatar-circle me-2"></div>
+                <div>
+                  <div class="small fw-semibold">Nur Alissa</div>
+                  <div class="small text-muted">CDIM262</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-3 d-flex justify-content-between align-items-center">
+              <button class="btn btn-sm btn-outline-light">See all</button>
+              <button class="btn btn-sm btn-primary rounded-circle">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second row: Tasks progress + Assignments -->
+    <div class="row g-4 mt-1">
+      <!-- TASKS PROGRESS (table = data view) -->
+      <div class="col-lg-8">
+        <div class="card h-100">
+          <div class="card-body">
+            <h6 class="fw-bold mb-3">Tasks Progress</h6>
+
+            <!-- Simple table as data view (this meets rubric) -->
+            <div class="table-responsive">
+              <table class="table table-sm align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th>Day</th>
+                    <th>Total Tasks</th>
+                    <th>Completed</th>
+                    <th>Time Spent</th>
+                    <th>Completion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mon</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>4h</td>
+                    <td>
+                      <div class="progress" style="height: 6px;">
+                        <div class="progress-bar bg-success" style="width: 80%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Tue</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>3h</td>
+                    <td>
+                      <div class="progress" style="height: 6px;">
+                        <div class="progress-bar bg-warning" style="width: 60%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wed</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2h</td>
+                    <td>
+                      <div class="progress" style="height: 6px;">
+                        <div class="progress-bar bg-info" style="width: 40%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Thu</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>1h</td>
+                    <td>
+                      <div class="progress" style="height: 6px;">
+                        <div class="progress-bar bg-success" style="width: 100%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fri</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1h</td>
+                    <td>
+                      <div class="progress" style="height: 6px;">
+                        <div class="progress-bar bg-danger" style="width: 30%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ASSIGNMENTS LIST (another data view) -->
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h6 class="fw-bold mb-2">Assignments (15)</h6>
+            <p class="small text-muted mb-3">2/15 completed</p>
+
+            <ul class="list-group list-group-flush assignment-list">
+              <li class="list-group-item px-0 border-0 d-flex justify-content-between">
+                <span>
+                  <input class="form-check-input me-2" type="checkbox" checked />
+                  IMS565 Individual Assignment
+                </span>
+                <span class="small text-muted">16 Jan 2026</span>
+              </li>
+              <li class="list-group-item px-0 border-0 d-flex justify-content-between">
+                <span>
+                  <input class="form-check-input me-2" type="checkbox" />
+                  IMS566 Pairing Work
+                </span>
+                <span class="small text-muted">16 Jan 2026</span>
+              </li>
+              <li class="list-group-item px-0 border-0 d-flex justify-content-between">
+                <span>
+                  <input class="form-check-input me-2" type="checkbox" />
+                  IMS564 Group Project
+                </span>
+                <span class="small text-muted">16 Jan 2026</span>
+              </li>
+              <li class="list-group-item px-0 border-0 d-flex justify-content-between">
+                <span>
+                  <input class="form-check-input me-2" type="checkbox" />
+                  LCC501 Writing Test 1
+                </span>
+                <span class="small text-muted">20 Jan 2026</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Lisa's Chart Card -->
+    <div class="row mt-4">
+      <div class="col-lg-8">
+        <div class="card h-100">
+          <div class="card-body">
+            <h6 class="fw-bold mb-3">Tasks Completed This Week</h6>
+            <p class="small text-muted mb-3">
+              Overview of how many tasks you completed from Monday to Friday.
+            </p>
+            <div style="width: 100%; max-width: 600px; margin: 0 auto;">
+              <canvas id="myTaskChart" height="120"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center small text-muted">
+    ©️ 2025 EASEON Student Task Manager
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Chart.js untuk page Lisa -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- JavaScript Lisa -->
+  <script src="my-task.js"></script>
+
+</body>
+</html>

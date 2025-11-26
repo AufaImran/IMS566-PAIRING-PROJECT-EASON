@@ -1,0 +1,109 @@
+.body {
+  background-color: #d4dff0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+.nav {
+  background: #aeb8d8;
+  padding: 12px 0;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+.brand-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 20px;
+  transition: 0.25s ease;
+}
+
+
+.welcome {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Focus Card */
+.focuscard {
+  background-color: #aebce0;
+  border-radius: 25px;
+}
+
+.focustitle {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.focusdate {
+  color: #24324c;
+}
+
+.taskcard {
+  border-radius: 20px;
+  color: white;
+}
+
+.taskcard.red {
+  background-color: #c94b4b;
+}
+
+.taskcard.yellow {
+  background-color: #d4b72b;
+}
+
+.taskcard.purple {
+  background-color: #7b6cae;
+}
+
+.taskcode {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.taskdesc {
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.daysleft {
+  font-weight: 700;
+}
+
+.percent {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+
+/* Daily Card */
+.schedulecard {
+  background-color: #b8c7e3;
+  border-radius: 25px;
+}
+
+.scheduletitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.graphplaceholder {
+  background-color: #d9eef7;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6a6a6a;
+  font-weight: 600;
+}
