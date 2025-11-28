@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-/*S Part Index*/
+/*S Part Index.. sekali log in*/
 .Ushape {
   width: 100%;
   height: 100%;
@@ -24,6 +24,7 @@ body {
   padding-bottom: 5%;
 }
 
+/*S Part Log In*/
 .btnindex { /*ni skali login*/
   padding: 12px 30px;
   border-radius: 25px;
@@ -40,14 +41,6 @@ body {
 /*E Part Index*/
 
 
-/*S Part Log In*/
-.Bshape {
-  width: 100%;
-  height: 100%;
-  background-color: #cbd6e8;
-  clip-path: ellipse(50% 90% at 20% 25%);
-  position: relative;
-}
 
 .logo2 {
   width: auto;
