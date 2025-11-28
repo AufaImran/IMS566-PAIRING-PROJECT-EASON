@@ -23,28 +23,32 @@
   <link rel="stylesheet" href="styles-lisa.css" />
 </head>
 <body class="bg-light">
-
-  <nav class="navbar nav px-4">
+  
+<nav class="navbar navbar-expand-lg px-4" style="background-color: #aeb8d8;">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
-      <img src="PIC/2.png" class="logo ">
+      <img src="PIC/2.png" class="logo" alt="Easeon Logo">
     </a>
-
-    <ul class="navbar-nav flex-row ms-auto align-items-center gap-4">
-      <li class="nav-item">
-        <a class="nav-link" href="my-task.html">My Task</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="weekly-schedule.html">Weekly Schedule</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link logout" href="index.html">Log Out</a>
-      </li>
-    </ul>
+     <!-- Hamburger Nav -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="my-task.html">My Task</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="weekly-schedule.html">Weekly Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link logout" href="index.html">Log Out</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
-
-
   <!-- MAIN CONTENT -->
   <main class="container-fluid px-4 py-4">
 
