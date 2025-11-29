@@ -31,10 +31,6 @@
   color: rgb(0, 0, 0);
 }
 
-.focusdate {
-  color: rgb(0, 0, 0);
-}
-
 /* Focus Card */
 .focuscard {
   background-color: #aebce0;
@@ -47,7 +43,7 @@
 }
 
 .focusdate {
-  color: #24324c;
+  color: white;
 }
 
 .taskcard {
@@ -108,4 +104,5 @@
   color: #6a6a6a;
   font-weight: 600;
 }
+
 
