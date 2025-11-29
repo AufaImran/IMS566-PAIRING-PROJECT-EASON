@@ -1,6 +1,6 @@
 .body {
-  background-color: #d4dff0;
-  font-family: 'Poppins', sans-serif;
+  background: #f4f4ff;
+  font-family: system-ui, "Segoe UI", sans-serif;
 }
 
 .logo {
@@ -28,7 +28,7 @@
 .welcome {
   font-size: 48px;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* Focus Card */
