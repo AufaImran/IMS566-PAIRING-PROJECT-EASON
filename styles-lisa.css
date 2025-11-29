@@ -74,9 +74,30 @@ body {
 .assignment-list .list-group-item {
   background: transparent;
 }
+  
+.weekly-schedule {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
 
 /* Footer */
 footer {
   opacity: 0.7;
 }
 
+.task-card p,
+.task-card .small,
+.task-card .text-muted,
+.task-card span {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.task-card .btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.task-card .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
