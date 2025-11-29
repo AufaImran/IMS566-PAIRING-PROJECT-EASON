@@ -57,7 +57,7 @@ const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const data = {
   labels: labels,
   datasets: [{
-    label: "Status",
+    label: "Status %",
     data: [100, 55, 10, 10, 80, 50, 50],
     backgroundColor: [
       "rgba(1, 177, 24, 1)",
@@ -84,5 +84,6 @@ new Chart(inti, {
     }
   }
 });
+
 
 
