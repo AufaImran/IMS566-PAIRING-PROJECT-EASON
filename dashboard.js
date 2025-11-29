@@ -52,7 +52,7 @@ createProgressBar("focusnow564", 18,  "rgba(255, 255, 255, 1)");
 
 
 // overall schedule progress punya bar chart
-const inti = document.getElementById("dailyprogress");
+const inti = document.getElementById("weeklyschedule");
 const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const data = {
   labels: labels,
@@ -84,4 +84,5 @@ new Chart(inti, {
     }
   }
 });
+
 
