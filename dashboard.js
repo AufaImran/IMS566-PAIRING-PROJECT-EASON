@@ -1,5 +1,5 @@
 // Focus now punya progress bar
-function createProgressBar(canvasId, value, color) {
+function createProgressBar(canvasId, value) {
   const progress = document.getElementById(canvasId);
 
   new Chart(progress, {
@@ -8,8 +8,16 @@ function createProgressBar(canvasId, value, color) {
       labels: [""],
       datasets: [
         {
+          label: "Progress",
           data: [value],
-          backgroundColor: color,
+          backgroundColor: "rgba(255, 255, 255, 1)",
+          borderWidth: 0,
+          barThickness: 30
+        },
+        {
+          label: "Remaining",
+          data: [100 - value],
+          backgroundColor: "rgba(255, 255, 255, 0.3)",
           borderWidth: 0,
           barThickness: 30
         }
@@ -22,12 +30,14 @@ function createProgressBar(canvasId, value, color) {
       },
       scales: {
         x: {
+          stacked: true,
           min: 0,
           max: 100,
           ticks: { display: false },
           grid: { display: false }
         },
         y: {
+          stacked: true,
           ticks: { display: false },
           grid: { display: false }
         }
@@ -35,9 +45,9 @@ function createProgressBar(canvasId, value, color) {
     }
   });
 }
-createProgressBar("focusnow565", 80, "rgba(255, 255, 255, 1)");
-createProgressBar("focusnow566", 50, "rgba(255, 255, 255, 1)");
-createProgressBar("focusnow564", 16,  "rgba(255, 255, 255, 1)");
+createProgressBar("focusnow565", 89, "rgba(255, 255, 255, 1)");
+createProgressBar("focusnow566", 60, "rgba(255, 255, 255, 1)");
+createProgressBar("focusnow564", 18,  "rgba(255, 255, 255, 1)");
 
 
 
