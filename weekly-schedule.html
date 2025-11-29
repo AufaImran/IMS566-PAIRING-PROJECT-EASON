@@ -1,5 +1,4 @@
- <!-- LISA -->
-  
+<!-- LISA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,9 @@
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons (IMPORTANT) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles-lisa.css" />
@@ -21,11 +23,13 @@
     <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
       <img src="PIC/2.png" class="logo" alt="Easeon Logo">
     </a>
-     <!-- Hamburger Nav -->
+
+    <!-- Hamburger Nav -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
       aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -42,101 +46,102 @@
   </div>
 </nav>
 
-  <!-- MAIN CONTENT -->
-  <main class="container px-4 py-4">
+<!-- MAIN CONTENT -->
+<main class="container px-4 py-4">
 
-    <!-- Page Title -->
-    <h3 class="weekly-schedule">Weekly Schedule</h3>
-    <p class="text-muted mb-4">Track your weekly classes, tasks, and commitments in one place.</p>
+  <!-- Page Title -->
+  <h3 class="weekly-schedule">Weekly Schedule</h3>
+  <p class="text-muted mb-4">Track your weekly classes, tasks, and commitments in one place.</p>
 
-    <!-- Weekly Schedule Table -->
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <h6 class="fw-bold mb-3">This Week’s Overview</h6>
+  <!-- Weekly Schedule Table -->
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <h6 class="fw-bold mb-3">This Week’s Overview</h6>
 
-        <div class="table-responsive">
-          <table class="table table-bordered align-middle schedule-table">
-            <thead class="table-light">
-              <tr>
-                <th>Day</th>
-                <th>Time</th>
-                <th>Activity</th>
-                <th>Location</th>
-                <th>Status</th>
-              </tr>
-            </thead>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle schedule-table">
+          <thead class="table-light">
+            <tr>
+              <th><i class="bi bi-calendar-week me-2"></i>Day</th>
+              <th><i class="bi bi-clock me-2"></i>Time</th>
+              <th><i class="bi bi-journal-text me-2"></i>Activity</th>
+              <th><i class="bi bi-geo-alt me-2"></i>Location</th>
+              <th><i class="bi bi-flag me-2"></i>Status</th>
+            </tr>
+          </thead>
 
-            <tbody>
-              <tr>
-                <td>Monday</td>
-                <td>10:00 AM – 12:00 PM</td>
-                <td>IMS565 Lecture</td>
-                <td>DK1</td>
-                <td><span class="badge bg-success">Completed</span></td>
-              </tr>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>10:00 AM – 12:00 PM</td>
+              <td>IMS565 Lecture</td>
+              <td>DK1</td>
+              <td><span class="badge bg-success">Completed</span></td>
+            </tr>
 
-              <tr>
-                <td>Tuesday</td>
-                <td>2:00 PM – 4:00 PM</td>
-                <td>IMS566 UI/UX Workshop</td>
-                <td>Lab 3</td>
-                <td><span class="badge bg-warning">In Progress</span></td>
-              </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>2:00 PM – 4:00 PM</td>
+              <td>IMS566 UI/UX Workshop</td>
+              <td>Lab 3</td>
+              <td><span class="badge bg-warning">In Progress</span></td>
+            </tr>
 
-              <tr>
-                <td>Wednesday</td>
-                <td>8:00 AM – 10:00 AM</td>
-                <td>IMS564 Group Project Meeting</td>
-                <td>Library</td>
-                <td><span class="badge bg-primary">Upcoming</span></td>
-              </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>8:00 AM – 10:00 AM</td>
+              <td>IMS564 Group Project Meeting</td>
+              <td>Library</td>
+              <td><span class="badge bg-primary">Upcoming</span></td>
+            </tr>
 
-              <tr>
-                <td>Thursday</td>
-                <td>3:00 PM – 5:00 PM</td>
-                <td>LCC501 Writing Practice</td>
-                <td>Online</td>
-                <td><span class="badge bg-primary">Upcoming</span></td>
-              </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>3:00 PM – 5:00 PM</td>
+              <td>LCC501 Writing Practice</td>
+              <td>Online</td>
+              <td><span class="badge bg-primary">Upcoming</span></td>
+            </tr>
 
-              <tr>
-                <td>Friday</td>
-                <td>9:00 AM – 11:00 AM</td>
-                <td>IMS565 Assignment Work</td>
-                <td>Home</td>
-                <td><span class="badge bg-warning">In Progress</span></td>
-              </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:00 AM – 11:00 AM</td>
+              <td>IMS565 Assignment Work</td>
+              <td>Home</td>
+              <td><span class="badge bg-warning">In Progress</span></td>
+            </tr>
 
-              <tr>
-                <td>Saturday</td>
-                <td>Free Day</td>
-                <td>Self-study & revision</td>
-                <td>—</td>
-                <td><span class="badge bg-secondary">Flexible</span></td>
-              </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>Free Day</td>
+              <td>Self-study & revision</td>
+              <td>—</td>
+              <td><span class="badge bg-secondary">Flexible</span></td>
+            </tr>
 
-              <tr>
-                <td>Sunday</td>
-                <td>Free Day</td>
-                <td>Rest & Reset</td>
-                <td>—</td>
-                <td><span class="badge bg-secondary">Flexible</span></td>
-              </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Free Day</td>
+              <td>Rest & Reset</td>
+              <td>—</td>
+              <td><span class="badge bg-secondary">Flexible</span></td>
+            </tr>
+          </tbody>
 
-            </tbody>
-          </table>
-        </div>
-
+        </table>
       </div>
+
     </div>
+  </div>
 
-  </main>
+</main>
 
-  <!-- FOOTER -->
-  <footer class="py-3 text-center small text-muted">
-    ©️ 2025 EASEON Student Task Manager
-  </footer>
+<!-- FOOTER -->
+<footer class="py-3 text-center small text-muted">
+  ©️ 2025 EASEON Student Task Manager
+</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
